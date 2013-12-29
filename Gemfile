@@ -27,6 +27,7 @@ end
 
 group :test do 
 	gem 'capybara', '~> 2.1.0'
-end
+	gem 'shoulda-matchers', '~>2.2.0' #testing for relationships
+end 
 
 
